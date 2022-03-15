@@ -8,7 +8,7 @@ export const Head = styled.div`
   width: 100%;
   height: 80vh;
   position: relative;
-  margin-bottom: 700px;
+  margin-bottom: 50px;
   button {
     position: absolute;
     right: 0%;

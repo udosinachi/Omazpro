@@ -22,13 +22,25 @@ export const Nav = styled.div`
   .link-div {
     display: flex;
     justify-content: space-between;
+    align-content: flex-start;
     width: 45%;
     margin: auto;
+    flex-wrap: wrap;
     /* border: 3px solid red; */
+    @media (max-width: 1000px) {
+      width: 65%;
+    }
+    @media (max-width: 700px) {
+      width: 75%;
+    }
+    @media (max-width: 550px) {
+      width: 90%;
+    }
     .link {
       color: white;
       text-decoration: none;
       font-size: 22px;
+      margin-right: 10px;
     }
   }
 `
