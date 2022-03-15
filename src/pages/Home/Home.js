@@ -1,4 +1,5 @@
 import React from 'react'
+import Comments from '../../components/Comment/Comments'
 import Header from '../../components/Header/Header'
 import Navbar from '../../components/Navbar/Navbar'
 import SubServices from '../../components/SubServices/SubServices'
@@ -11,6 +12,7 @@ const Home = () => {
       <Header />
       <Welcome />
       <SubServices />
+      <Comments />
     </div>
   )
 }

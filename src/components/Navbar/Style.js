@@ -21,8 +21,7 @@ export const Nav = styled.div`
   }
   .link-div {
     display: flex;
-    justify-content: space-between;
-    align-content: flex-start;
+    justify-content: center;
     width: 45%;
     margin: auto;
     flex-wrap: wrap;
@@ -40,7 +39,7 @@ export const Nav = styled.div`
       color: white;
       text-decoration: none;
       font-size: 22px;
-      margin-right: 10px;
+      margin: 3px 10px;
     }
   }
 `
