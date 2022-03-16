@@ -1,4 +1,5 @@
 import React from 'react'
+import Carrousel from '../../components/Carrousel/Carrousel'
 import Comments from '../../components/Comment/Comments'
 import Header from '../../components/Header/Header'
 import Navbar from '../../components/Navbar/Navbar'
@@ -13,6 +14,7 @@ const Home = () => {
       <Welcome />
       <SubServices />
       <Comments />
+      <Carrousel />
     </div>
   )
 }

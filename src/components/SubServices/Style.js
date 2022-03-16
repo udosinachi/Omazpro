@@ -43,7 +43,7 @@ export const Cards = styled.div`
       font-size: x-large;
     }
     button {
-      border: 2px solid black;
+      border: 4px solid black;
       background: none;
       width: 100px;
       height: 40px;
