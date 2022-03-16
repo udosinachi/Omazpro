@@ -1,16 +1,16 @@
 import './App.css'
-// import { Routes, Route, Link } from "react-router-dom";
+import { Routes, Route } from 'react-router-dom'
 import Home from './pages/Home/Home'
+import Contact from './pages/Contact/Contact'
 
 function App() {
   return (
     <div className='App'>
       <div>
-        <Home />
-        {/* <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="about" element={<About />} />
-      </Routes> */}
+        <Routes>
+          <Route path='/' element={<Home />} />
+          <Route path='contact' element={<Contact />} />
+        </Routes>
       </div>
     </div>
   )

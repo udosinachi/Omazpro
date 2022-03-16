@@ -38,7 +38,7 @@ const Navbar = () => {
               <Link to='gallery' className='link'>
                 Products
               </Link>
-              <Link to='gallery' className='link'>
+              <Link to='contact' className='link'>
                 Contact
               </Link>
             </div>
